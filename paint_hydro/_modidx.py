@@ -6,4 +6,10 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/nesar/paint_hydro',
                 'lib_path': 'paint_hydro'},
   'syms': { 'paint_hydro.core': {'paint_hydro.core.foo': ('core.html#foo', 'paint_hydro/core.py')},
-            'paint_hydro.seds': {'paint_hydro.seds.adding': ('seds.html#adding', 'paint_hydro/seds.py')}}}
+            'paint_hydro.seds': { 'paint_hydro.seds.adding': ('seds.html#adding', 'paint_hydro/seds.py'),
+                                  'paint_hydro.seds.autoscale_y': ('seds.html#autoscale_y', 'paint_hydro/seds.py'),
+                                  'paint_hydro.seds.convert_unit_spec_from_ergscm2A': ( 'seds.html#convert_unit_spec_from_ergscm2a',
+                                                                                        'paint_hydro/seds.py'),
+                                  'paint_hydro.seds.cosmo_redshifting': ('seds.html#cosmo_redshifting', 'paint_hydro/seds.py'),
+                                  'paint_hydro.seds.cosmology_model': ('seds.html#cosmology_model', 'paint_hydro/seds.py'),
+                                  'paint_hydro.seds.load': ('seds.html#load', 'paint_hydro/seds.py')}}}
