@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "paint_hydro",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "paint_hydro",
+    "section": "Install",
+    "text": "Install\npip install paint_hydro"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "paint_hydro",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\nadding(5, 4, 5)\n\n14"
+  },
+  {
+    "objectID": "seds.html",
+    "href": "seds.html",
+    "title": "seds",
+    "section": "",
+    "text": "\\[\\sum_{i=1}^{k+1}i\\]\n\nassert adding(3, 4, 5)==12\n\n\nsource\n\nadding\n\n adding (a, b, c)\n\nAdding 3 numbers\n\n\n\n\nDetails\n\n\n\n\na\nfirst variable\n\n\nb\nsecond variable\n\n\nc\nthird variable"
+  }
+]
