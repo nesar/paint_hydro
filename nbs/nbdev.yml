@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "paint_hydro"
+  site-url: "https://nesar.github.io/paint_hydro"
+  description: "Adding spectral energy distributions from FSPS to HACC hydro simulations"
+  repo-branch: main
+  repo-url: "https://github.com/nesar/paint_hydro"
