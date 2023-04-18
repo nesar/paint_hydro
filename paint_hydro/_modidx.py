@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://nesar.github.io',
                 'git_url': 'https://github.com/nesar/paint_hydro',
                 'lib_path': 'paint_hydro'},
-  'syms': {'paint_hydro.core': {'paint_hydro.core.foo': ('core.html#foo', 'paint_hydro/core.py')}}}
+  'syms': { 'paint_hydro.core': {'paint_hydro.core.foo': ('core.html#foo', 'paint_hydro/core.py')},
+            'paint_hydro.seds': {'paint_hydro.seds.adding': ('seds.html#adding', 'paint_hydro/seds.py')}}}
