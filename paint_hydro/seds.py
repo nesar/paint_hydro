@@ -3,10 +3,13 @@
 # %% auto 0
 __all__ = ['adding']
 
-# %% ../nbs/00_seds.ipynb 3
+# %% ../nbs/00_seds.ipynb 4
 def adding(a, # first variable
           b,  #second variable
           c): #third variable
+    '''
+    Adding 3 numbers 
+    '''
     d = a + b+ c
     return d
     
