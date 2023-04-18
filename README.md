@@ -16,7 +16,7 @@ pip install paint_hydro
 Fill me in please! Don’t forget code examples:
 
 ``` python
-1+1
+adding(3, 4, 5)
 ```
 
-    2
+    12
