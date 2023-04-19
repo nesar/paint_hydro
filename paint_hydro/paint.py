@@ -48,7 +48,8 @@ def cosmo_redshifting(DL_Gpc=0.0, # Luminosity distance (LD) in unit of Gpc. If 
                       Om0=0.3, # Omega matter at z=0.
                       z=0.01, # Redshift.
                       wave=[], # Wavelength grids of the input spectrum.
-                      spec=[]): # Fluxes of the input spectrum.  
+                      spec=[] # Fluxes of the input spectrum.  
+                     ): # wavelengths, SEDs
     """
     returns redsh_wave: Wavelength grids of the redshifted spectrum
     returns redsh_spec: Fluxes of redshifted spectrum. 
@@ -87,7 +88,8 @@ def cosmo_redshifting(DL_Gpc=0.0, # Luminosity distance (LD) in unit of Gpc. If 
 # %% ../nbs/00_paint.ipynb 7
 def convert_unit_spec_from_ergscm2A(wave, # wavelength
                                     spec, # SEDs
-                                    funit='Jy'): #Units
+                                    funit='Jy' #Units
+                                   ): # SEDs
     """
     A function to convert unit of flux from 'erg/s/cm2/A' --> 'erg/s/cm2' or 'Jy'
     """

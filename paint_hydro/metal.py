@@ -3,6 +3,10 @@
 # %% auto 0
 __all__ = ['logZfit']
 
+# %% ../nbs/02_metal.ipynb 4
+import matplotlib.pylab as plt
+import numpy as np
+
 # %% ../nbs/02_metal.ipynb 5
 def logZfit(logM, # log stellar mass
             redshift): # redshift
