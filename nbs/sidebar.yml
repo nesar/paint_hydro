@@ -2,4 +2,6 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - 00_seds.ipynb
+      - 00_paint.ipynb
+      - 01_load.ipynb
+      - 02_metal.ipynb
