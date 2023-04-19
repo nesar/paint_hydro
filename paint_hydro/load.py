@@ -9,6 +9,9 @@ import matplotlib.pylab as plt
 from colossus.cosmology import cosmology
 import haccytrees as haccT
 
+# %% ../nbs/01_load.ipynb 5
+from .paint import *
+
 # %% ../nbs/01_load.ipynb 6
 def cosmology_model(sim_name): # simulation name
     ''' 
