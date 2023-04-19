@@ -5,3 +5,4 @@ website:
       - 00_paint.ipynb
       - 01_load.ipynb
       - 02_metal.ipynb
+      - 03_dust.ipynb
