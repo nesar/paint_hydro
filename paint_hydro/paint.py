@@ -11,8 +11,6 @@ import sys, os
 import fsps
 from astropy.cosmology import *
 import matplotlib.pylab as plt
-# from colossus.cosmology import cosmology
-# import haccytrees
 
 # %% ../nbs/00_paint.ipynb 5
 def autoscale_y(ax,margin=0.1):
@@ -136,7 +134,7 @@ def csp_spec_restframe_fit(sp=None, sfh_t=np.linspace(0, 13, 100), sfh_sfr=np.ar
 
 	return SFR,mass,wave,spec,dust_mass
 
-
+# %% ../nbs/00_paint.ipynb 9
 def generate_modelSED_spec(sp=None,imf_type=1,duste_switch=1,add_neb_emission=1, dust_law=1, sfh_form=3, sfh_t=np.linspace(0, 13, 100), sfh_sfr=np.arctan(np.linspace(0, 13, 100)), 
 	add_agn=0,add_igm_absorption=0,igm_type=0,cosmo='flat_LCDM',H0=70.0,Om0=0.3,gas_logu=-2.0,params_val={'log_mass':0.0,
 	'z':0.001,'log_fagn':-3.0,'log_tauagn':1.0,'log_qpah':0.54,'log_umin':0.0,'log_gamma':-2.0,'dust1':0.5,'dust2':0.5,
@@ -289,7 +287,7 @@ def generate_modelSED_spec(sp=None,imf_type=1,duste_switch=1,add_neb_emission=1,
 
 	return spec_SED
 
-
+# %% ../nbs/00_paint.ipynb 10
 def generate_modelSED_spec_decompose(sp=None,imf=1, duste_switch=1,add_neb_emission=1,dust_law=1,add_agn=1,
 	add_igm_absorption=0,igm_type=0,sfh_form=3, sfh_t=np.linspace(0, 13, 100), sfh_sfr=np.arctan(np.linspace(0, 13, 100)), funit='erg/s/cm2/A',cosmo='flat_LCDM',H0=70.0,Om0=0.3,
 	gas_logu=-2.0,params_val={'log_mass':0.0,'z':0.001,'log_fagn':-3.0,'log_tauagn':1.0,'log_qpah':0.54,'log_umin':0.0,
